@@ -12,7 +12,7 @@ class CalendarsController < ApplicationController
     if @plan.save
       redirect_to action: :index
     else
-      render :new # エラー時にフォームを再表示
+      render :new
     end
   end
 
